@@ -30,10 +30,11 @@ int main() {
     printf("Pontos turísticos: %s\n", pontos_turisticos);
 
     
-    printf("\nPressione Enter para sair...");
+    printf("\nPressione Enter para sair..."); 
     getchar();
-    getchar(); 
+    getchar(); // Para evitar que executável feche sozinho
 
     return 0;
 }
+
 
